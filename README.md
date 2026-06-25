@@ -13,6 +13,7 @@ The task is to clean raw retail order-level data, validate business rules, docum
 - Node.js
 - xlsx for raw workbook parsing
 - ExcelJS for generated Excel workbooks
+- Final workbooks were opened and validated in an Excel-compatible format with formulas retained.
 
 ## Cleaning Steps Performed
 - Preserved the raw workbook unchanged.
@@ -49,6 +50,8 @@ The task is to clean raw retail order-level data, validate business rules, docum
 - Profit margin by customer segment
 - Refunded/cancelled/failed orders by region
 - Monthly sales trend
+
+The region and category/sub-category summaries are sorted by completed sales and profit so the highest-value areas appear first. These two outputs are the main filtered/sorted summary views used for review.
 
 ## Key Business Insights
 - South is the highest completed-sales region with sales of 1461555.75.
